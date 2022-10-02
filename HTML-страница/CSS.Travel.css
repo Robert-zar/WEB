@@ -1,0 +1,310 @@
+
+.spacer {
+position : absolute;
+top  : 150px;
+left  : 300px;
+width  : 200%;
+color   : white;
+font-family: Georgia
+}
+.put {
+position : absolute;
+top  : 350px;
+left  : 300px;
+width  : 100%;
+color   : white;
+font-family: Georgia;
+font-size: 35px
+}
+.vst {
+position : absolute;
+top  : 400px;
+left  : 180px;
+width  : 100%;
+color   : white;
+font-family: Georgia;
+font-size : 19px;
+font-weight : lighter;
+
+}
+html, body{
+width:100%; height:100%; overflow-x:hidden
+}
+.nach {
+top  : 35px;
+width  : 100%;
+color : RoyalBlue
+}
+.rek {
+top  : 25px;
+width  : 100%;
+color : DeepSkyBlue;
+font-size : 19px;
+font-weight : lighter
+}
+header {
+background-image: url(Главная1.jpg);
+width:1355;
+height:615;
+}
+body {
+background: LightCyan;
+
+}
+.image {
+    object-fit: cover;
+    position : relative;
+}
+
+.flex {
+display: flex;
+justify-content: center;
+}
+
+.item {
+width: 20%;
+margin-right: 20px;
+}
+
+.item img {
+object-fit: cover;
+display: block;
+max-width: 100%
+}
+
+.item h3 {
+margin: 0;
+text-transform: uppercase;
+color: DimGrey;
+font-size: 1.3vw;
+background: white;
+font-family: Georgia;
+font-size : 19px;
+font-weight : lighter
+
+}
+
+.flex2 {
+display: flex;
+justify-content: center;
+}
+
+.item2 {
+width: 20%;
+margin-right: 20px;
+}
+
+.item2 img {
+object-fit: cover;    
+display: block;
+max-width: 100%
+}
+
+.item2 h3 {
+margin: 0;
+text-transform: uppercase;
+color: DimGrey;
+font-size: 1.3vw;
+background: white;
+font-family: Georgia;
+font-size : 19px;
+font-weight : lighter;
+object-fit: cover;
+}
+.tabl-idea{
+display: table;
+background: white;
+object-fit: cover;
+}
+
+.idea {
+display:  inline-block;
+}
+.i1{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 85px;
+font-weight : lighter;
+
+}
+.i2{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 85px;
+font-weight : lighter
+}
+.i3{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 85px;
+font-weight : lighter
+}
+
+.idea2 {
+display:  inline-block;
+}
+.i4{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 100px;
+font-weight : lighter
+}
+.i5{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 100px;
+font-weight : lighter
+}
+.i6{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 100px;
+font-weight : lighter
+}
+
+.idea3 {
+display:  inline-block;
+margin-right : 117px
+}
+.i7{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 100px;
+font-weight : lighter
+}
+.i8{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 100px;
+font-weight : lighter
+}
+.i9{
+color : RoyalBlue;
+font-size : 19px;
+margin-left : 100px;
+font-weight : lighter
+}
+
+.zag {
+font-family: Georgia;
+margin-left : 35px
+}
+
+.image1 {
+margin-top : 15px;
+position : relative;
+object-fit: cover;
+}
+
+.tur {
+position : absolute;
+top  : 90px;
+left  : 130px;
+width  : 100%;
+color   : white;
+font-family: Georgia;
+font-size : 19px;
+font-weight : lighter;
+}
+
+
+.image1 .btn {
+position: absolute;
+top: 50%;
+left: 230px;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #1E90FF;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.image1 .btn:hover {
+background-color: black;
+object-fit: cover;
+}
+
+.pr {
+margin-left : 35px;
+font-family: Georgia;
+color : DeepSkyBlue
+}
+
+.flex_pr {
+display : flex
+}
+
+.item_pr img {
+margin-left : 40px;
+object-fit: cover;
+
+}
+
+.item_pr2 img {
+margin-left : 40px;
+object-fit: cover;		
+}
+
+.tabl2_pr {
+background: white;
+margin-left : 40px;	
+margin-bottom : 180px			
+}
+
+.flex_pr2 {
+display: flex;
+justify-content: center;
+}
+
+.kon {
+font-family: Georgia;
+color : DeepSkyBlue
+
+}
+
+.flex_pr3 {
+display: flex;
+justify-content: center;
+}
+
+.item_pr3 img {
+margin-left : 40px;
+object-fit: cover;
+}
+
+.tabl_pr {
+background: white;
+margin-left : 40px;	
+margin-bottom : 250px			
+}
+
+.kon2 {
+font-family: Georgia;
+color : DeepSkyBlue
+}
+
+.flex_pred {
+display: inline-block;
+justify-content: center;
+margin-left : 30px
+}
+
+.pod {
+color : white	   
+}
+
+footer {
+background: #191919
+}
+
+.flex_im{
+display: flex;
+justify-content: center;
+}
+.im img {
+    object-fit: cover;
+}   
