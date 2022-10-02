@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Задания по JavaScript</title>
+<link rel="stylesheet" type="text/css"
+        href="ДатаCss.css">
+</head>
+<body>
+    <div class="accordion"> 
+        <div class="tab">
+         <input type="checkbox" id="tab1" name="tab-group">
+         <label for="tab1" class="tab-title">Дата и время</label> 
+         <section class="tab-content"> 
+          <ul>
+            <script type="text/javascript" src="Data4.js">
+            </script>   
+            <div id="time"></div>
+          </ul>
+         </section> 
+        </div>   
+        </div>  
+
+        <div class="accordion"> 
+        <div class="tab">
+                <input type="checkbox" id="tab2" name="tab-group">
+                <label for="tab2" class="tab-title">Календарь</label> 
+                <section class="tab-content"> 
+                 
+<table id="calendar2">
+  <thead>
+    <tr><td>‹<td colspan="5"><td>›
+    <tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+  <tbody>
+</table>
+                   <script type="text/javascript" src="Календарь4.js">
+                   </script>   
+                 
+                </section> 
+               </div> 
+        </div>
+
+
+        <div class="accordion"> 
+          <div class="tab">
+           <input type="checkbox" id="tab3" name="tab-group">
+           <label for="tab3" class="tab-title">Изменение объекта</label> 
+           <section class="tab-content">
+            <ul>
+               <div class="gallery">
+                   <div class="photo"></div>
+                   <div class="photo"></div>
+                   <div class="photo"></div>
+                   <div class="photo"></div>
+                   <div class="photo"></div>
+               </div>
+
+               <script type="text/javascript" src="lab4.js">
+              </script>   
+
+            </ul>
+           </section> 
+          </div>     
+          </div>
+
+
+          <div class="accordion"> 
+            <div class="tab">
+             <input type="checkbox" id="tab4" name="tab-group">
+             <label for="tab4" class="tab-title">Здесь сладости</label> 
+             <section class="tab-content"> 
+                             <script type="text/javascript" src="lab7.js">
+                </script>
+              <ul id="ulul">
+                  <li id="slad_1" onclick="return delSlad('slad_1')">
+                      Шоколад
+                  </li>
+                  <li id="slad_2" onclick="return delSlad('slad_2')">
+                      Печенье
+                  </li>
+                  <li id="slad_3" onclick="return delSlad('slad_3')">
+                      Круассаны
+                  </li>
+                  <li id="slad_4" onclick="return delSlad('slad_4')">
+                      Мороженое
+                  </li>
+    
+              </ul>
+             </section> 
+            </div>     
+            </div>
+
+            
+            <div class="accordion"> 
+              <div class="tab" onclick="return PromptTable()">
+               <input type="checkbox" id="tab5" name="tab-group" >
+               <label for="tab5" class="tab-title">Создание элемента (Лаб 5)</label> 
+               <section class="tab-content"> 
+                <table id="table_prompt">
+
+                </table>
+                <button id="prompt_delete" onclick="return deletePromptElement()">
+                    Удалить
+                </button>
+                <script type="text/javascript" src="lab5.js">
+                </script>   
+               </section> 
+              </div>   
+              </div>  
+  
+                
+
+                <div class="accordion"> 
+                  <div class="tab">
+                   <input type="checkbox" id="tab7" name="tab-group">
+                   <label for="tab7" class="tab-title">Найти количество div в документе</label> 
+                   <section class="tab-content"> 
+                    <ul> 
+                      <div id="a"></div>                      
+                      <script type="text/javascript" src="lab3.js">
+                      </script>   
+                    </ul>
+                   </section> 
+                  </div>   
+                  </div>   
+                
+                                <div class="accordion"> 
+                      <div class="tab">
+                       <input type="checkbox" id="tab9" name="tab-group">
+                       <label for="tab9" class="tab-title">Плавно исчезающая картинка</label> 
+                       <section class="tab-content"> 
+                        <div class="accordion-item-content">
+                          <p>Какой-то текст</p>
+                          <div id="gifka"><img src="https://c.wallhere.com/photos/fc/9a/1366x768_px_Canada_landscape_mountain_stars_Trees-1080526.jpg!d" alt="gif" width = 435px height = 220px></div>
+                      </div>
+                          <script type="text/javascript" src="lab8.js">
+                          </script>   
+                       </section> 
+                      </div>   
+                      </div>  
+
+                    
+               
+</body>
+</html>
